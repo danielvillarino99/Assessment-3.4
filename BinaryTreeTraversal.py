@@ -26,7 +26,7 @@ class BinaryTree:
     return result
 
   def dfs(self, node, result=None):
-    """Depth-First Search (Pre-order traversal)"""
+    """Depth-First Search (Pre-order traersal)"""
     if result is None:
       result = []
     if node:
